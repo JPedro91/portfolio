@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #1a1a2e !important;
+  }
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #e0e0e0 !important;
+  }
+  
+  .navbar .nav-link:hover{
+    color:#bb86fc;
+  }
+  .navbar .nav-link.active {
+    color: #bb86fc !important;
+    font-weight: bold;
+  }
+  .btn-roxo {
+    color: #bb86fc;
+    border: 1px solid #bb86fc;
+  }
+  
+  .btn-roxo:hover {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  .form-control {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #e0e0e0;
+  }
+   
+  .form-control::placeholder {
+    color: #888;
+  }
+  .dropdown-menu {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+  }
+  
+  .dropdown-item {
+    color: #e0e0e0;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #2a2a2a;
+    color: #bb86fc;
+  }
+.caixa-navbar{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#desc{
+  color: #bb86fc;
+}
+.fotoparc{
+  border-radius: 10px;
+}
+.col {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: grid;
+}
+#btnContato{
+  width: 100px;
+}
